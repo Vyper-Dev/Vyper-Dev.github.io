@@ -1,6 +1,6 @@
 Website for School and Career opportunities
 
-Website: https://yaawert.github.io/ or ashtondbl.com
+Website: https://yaawert.github.io/ or https://ashtondbl.com/
 
 DO NOT: Download/Copy/Alter
 
