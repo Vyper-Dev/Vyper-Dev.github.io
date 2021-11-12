@@ -1,7 +1,6 @@
-Website for School and Career opportunities
-
+Central hub website for all my websites
 Website: https://ashtondbl.com
 
 DO NOT: Download/Copy/Alter
 
-Go to the website if you want to see what it looks like
+Visit the website if you want to see what it looks like
