@@ -1,13 +1,13 @@
 Package: com.vyper.axe
-Version: 1.5.4
+Version: 1.5.5
 Architecture: iphoneos-arm
 Maintainer: Vyper
 Depends: mobilesubstrate, firmware(>=13.0)
-Filename: debs/Axe154.deb
-Size: 7976
-MD5sum: e57f2a46937008390816700a00bc4d99
-SHA1: 7826a9fd58a9714b20dd05ea299d7d3e01fe6a07
-SHA256: c3209bb104e812cc9c1a97f6c894c227faaaf9cecdb7e9f77ec01c7cf7ca8b2a
+Filename: debs/Axe155.deb
+Size: 9838
+MD5sum: 45f954253e39c351c91f62ba46e42f17
+SHA1: 484128096e60b7554601d8884df0804ff4736280
+SHA256: f9d1a4976cb21da0ae828c4c116d1c8f6790e0b6b1c5821d1c24e4267460e151
 Section: Tweaks
 Description: Add gradient colors to your battery!
 Author: Vyper
