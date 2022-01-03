@@ -84,6 +84,28 @@
             <a class="u-button-style u-custom-border u-custom-border-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
               <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
               <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+
+          <h1>Datastore and Firebase Auth Example</h1>
+
+          <div id="firebaseui-auth-container"></div>
+
+          <button id="sign-out" hidden=true>Sign Out</button>
+
+          <div id="login-info" hidden=true>
+            <h2>Login info:</h2>
+            {% if user_data %}
+              <dl>
+                <dt>Name</dt><dd>{{ user_data['name'] }}</dd>
+                <dt>Email</dt><dd>{{ user_data['email'] }}</dd>
+                <dt>Last 10 visits</dt><dd>
+                  {% for time in times %}
+                    <p>{{ time['timestamp'] }}</p>
+                  {% endfor %} </dd>
+              </dl>
+            {% elif error_message %}
+              <p>Error: {{ error_message }}</p>
+            {% endif %}
+          </div>
 </symbol>
 </defs></svg>
             </a>
