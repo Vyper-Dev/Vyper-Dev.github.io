@@ -1,29 +1,29 @@
 Package: com.vyper.axe
-Version: 1.5.5
+Version: 2.0.0
 Architecture: iphoneos-arm
 Maintainer: Vyper
 Depends: mobilesubstrate, firmware(>=13.0)
-Filename: debs/Axe155.deb
-Size: 9838
-MD5sum: 45f954253e39c351c91f62ba46e42f17
-SHA1: 484128096e60b7554601d8884df0804ff4736280
-SHA256: f9d1a4976cb21da0ae828c4c116d1c8f6790e0b6b1c5821d1c24e4267460e151
+Filename: debs/Axe_v2.0.0.deb
+Size: 11714
+MD5sum: 98ac5661e06f5f29d971eef33fd01a0a
+SHA1: daedd58215674fc59b3a4a33a90e9c4003b1e04b
+SHA256: 91f5d93f70f616e47ee6e12d6db15af2e5d609904964dc7a1d643396677d87d9
 Section: Tweaks
 Description: Add gradient colors to your battery!
 Author: Vyper
 Name: Axe
 
 Package: com.vyper.transdock
-Version: 1.5.2
+Version: 1.5.5
 Architecture: iphoneos-arm
 Maintainer: Vyper
 Depends: mobilesubstrate, firmware(>=13.0)
-Filename: debs/TransDock152.deb
-Size: 8314
-MD5sum: 85b84eca5e10f6e933202bf08931148c
-SHA1: 492a8a3e1fe2b6d87fe4d317235dad2fa94736f5
-SHA256: 621a3815f98e1ad7d774e3cc7b5a866264b3d1507788819206732a15476bce80
+Filename: debs/TransDock_v1.5.5.deb
+Size: 7830
+MD5sum: 89ac54162ed6bbe866568123cf8559f8
+SHA1: d618f10144041e611dabc8d925138db540e7e004
+SHA256: c3ddf3d9c07f5b7094e89bcfd78d1089a491895cc6cb051c9140c3275fd8daa9
 Section: Tweaks
-Description: Make your dock transparent!
+Description: Get rid of that pesky dock background!
 Author: Vyper
 Name: Transdock
